@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Portfolio</title>
+</head>
+<body>
+    <nav>
+        <div class="user">
+            <h4><a href = "#home">Arjun Gaur</a></h4>
+        </div>
+        <ul class="nav-links">
+            <li ><a class ="home" id = "active" href = "#home">Home</a></li>
+            <li><a class = "hobbies" href = "#hobbies">Hobbies</a></li>
+            <li><a class ="skills" href = "#skills">Skills</a></li>
+        </ul>
+    </nav>
+    <section id = "home">
+        <div class="content">
+            <div class = "about">
+                <div class="heading">Hi, my name is Arjun</div>
+                <div class = "para">
+                    I'm a sophomore in Netaji Subash University Of Technology who is majoring in Mathematics And Computing.
+                    I am a fun loving person who also happens to have an interest in web development. I have an experience in making websites using HTML, CSS and Javascript.
+                    I'm always open to learning new technologies and face any challenges that might follow.
+                </div>
+            </div>  
+            <div class = "image">
+                <div class="img">
+                    <img src ="images/crop.png">
+                </div>
+                <div class="name">Arjun</div>
+            </div>  
+        </div>
+        <div class="button">
+            <button><a href = "#hobbies">Hobbies</a></button>
+            <button><a href = "#skills">Skills</a></button>
+        </div>        
+    </section>
+    <section id="hobbies">
+        <div class="container">
+            <div class="box">
+                <div class="symbol" id="one"></div>
+                <div class="name">Programming</div>
+            </div>
+            <div class="box">
+                <div class="symbol" id ='two'></div>
+                <div class="name">Music</div>
+            </div>
+        </div>
+        <div class="heading">HOBBIES</div>
+        <div class="container">
+            <div class="box">
+                <div class="symbol" id = 'three'></div>
+                <div class="name">Football</div>
+            </div>
+            <div class="box">
+                <div class="symbol" id = 'four'></div>
+                <div class="name">Gaming</div>
+            </div>
+        </div>
+    </section>
+ 
+<section id = "skills">
+    <div class="heading">Skills</div>
+    <div class="skillBox">
+        <div class="progress">
+            <div class="symbol html"></div>
+            <div class="name">HTML</div>
+            <div class="bar">
+                <div class="fill" id ='html'></div>
+            </div>
+        </div>
+        <div class="progress">
+            <div class="symbol css"></div>
+            <div class="name">CSS</div>
+            <div class="bar">
+                <div class="fill" id ='css'></div>
+            </div>
+        </div>
+        <div class="progress">
+            <div class="symbol js"></div>
+            <div class="name">JS</div>
+            <div class="bar">
+                <div class="fill" id ='js'></div>
+            </div>
+        </div>
+    </div>
+</section>
+    <script src="script.js"></script>
+</body>
+</html>
